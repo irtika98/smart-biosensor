@@ -89,9 +89,11 @@ The object detection model successfully detects the regions of interest.
 The image processing of ROI also gives pretty satisfying results. The T_strip/C_strip intensity ratio shows an increasing trend with increasing concentrations, which is a desired out come. Plotting the `concentration vs T/C ratio  plot` plot we get a nearly linear relation.
 
 **T/C intensity ratio**
+
 ![50 iu/ml](https://i.ibb.co/SVGnxH4/image.png)
 
 **concentration vs T/C intensity ratio plot**
+
 ![50 iu/ml](https://i.ibb.co/CB90g60/image.png)
 
 # What next:
