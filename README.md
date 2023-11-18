@@ -90,4 +90,4 @@ The image processing of ROI also gives pretty satisfying results. The T_strip/C_
 
 # What next:
 
-The project is still ongoing and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from T/C intensity ratio of the input image. Deploy the model to an app and make it do realtime predictions.
+The project isongoing and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from T/C intensity ratio(obtained above) of the input image. Deploy the model to an app and make it do realtime predictions.
