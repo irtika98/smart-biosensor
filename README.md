@@ -88,6 +88,12 @@ The object detection model successfully detects the regions of interest.
 
 The image processing of ROI also gives pretty satisfying results. The T_strip/C_strip intensity ratio shows an increasing trend with increasing concentrations, which is a desired out come. Plotting the `concentration vs T/C ratio  plot` plot we get a nearly linear relation.
 
+**T/C intensity ratio**
+![50 iu/ml](https://i.ibb.co/SVGnxH4/image.png)
+
+**concentration vs T/C intensity ratio plot**
+![50 iu/ml](https://i.ibb.co/CB90g60/image.png)
+
 # What next:
 
 The project isongoing and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from T/C intensity ratio(obtained above) of the input image. Deploy the model to an app and make it do realtime predictions.
