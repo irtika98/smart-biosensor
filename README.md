@@ -88,7 +88,7 @@ The object detection model successfully detects the regions of interest.
 ![50 iu/ml](https://i.ibb.co/37GBVz1/image.png)
 
 
-The image processing of ROI also gives pretty satisfying results. The T_strip/C_strip intensity ratio shows an increasing trend with increasing concentrations, which is a desired out come. Plotting the `concentration vs T/C ratio  plot` plot we get a nearly linear relation.
+The image processing of ROI also gives pretty satisfying results. The T_strip/C_strip intensity ratio shows an increasing trend with increasing concentrations, which is a desired outcome. The concentration vs T/C ratio plot plot shows a nearly linear relation.
 
 ### **T/C intensity ratio**
 
@@ -100,4 +100,19 @@ The image processing of ROI also gives pretty satisfying results. The T_strip/C_
 
 # What next:
 
-The project isongoing and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from T/C intensity ratio(obtained above) of the input image. Deploy the model to an app and make it do realtime predictions.
+The project is ongoing, and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from the T/C intensity ratio(obtained above) of the input image. Deploy the model to an app and make it make real-time predictions.
+
+### Steps to run the backend (For Linux/Mac OS).
+- Create a virtual environment to install the necessary python packages.
+- Install `venv` to create a virtual environment using the command:- `pip install virtualenv`
+- cd into a directory of your choice to create the virtual environment(Desktop in this example):- `cd ~/Desktop`
+- To create a new virtual environment, use the command:- `virtualenv dip --python=python3.10`. Here `dip` is the name of your environment, you can use any name instead.
+*NOTE*: The above steps were a one-time process, you will have to activate the environment every time to use those packages.
+- Activate the environment using the command:- `source dip/bin/activate`. Make sure that you are in the same directory (`~/Desktop`)
+We need to install all the Python packages required to run our project.
+- Firstly, cd into the target directory using the command:- `cd smart-biosensor/Backend`
+- Install the Python packages from the requirements.txt file using the command:- `pip install -r requirements.txt`
+After installing all the packages, follow the steps to run the backend.
+- cd to the necessary directory using the command:- `cd conc_det`
+- run the backend server using the command:- `python manage.py runserver`
+This activates all the necessary API endpoints to access backend functions.
