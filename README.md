@@ -103,7 +103,7 @@ The image processing of ROI also gives pretty satisfying results. The T_strip/C_
 The project is ongoing, and our next goal is to build a neural network, train it on the T/C intensity ratio vs concentration data and make it predict the concentration from the T/C intensity ratio(obtained above) of the input image. Deploy the model to an app and make it make real-time predictions.
 
 ### Steps to run the backend (For Linux/Mac OS).
-- Create a virtual environment to install the necessary python packages.
+- Create a virtual environment to install the necessary Python packages.
 - Install `venv` to create a virtual environment using the command:- `pip install virtualenv`
 - cd into a directory of your choice to create the virtual environment(Desktop in this example):- `cd ~/Desktop`
 - To create a new virtual environment, use the command:- `virtualenv dip --python=python3.10`. Here `dip` is the name of your environment, you can use any name instead.
@@ -116,3 +116,7 @@ After installing all the packages, follow the steps to run the backend.
 - cd to the necessary directory using the command:- `cd conc_det`
 - run the backend server using the command:- `python manage.py runserver`
 This activates all the necessary API endpoints to access backend functions.
+- To test the backend, open a new terminal window to run the test script.
+- Activate the virtual environment using the above-mentioned command (make sure you are in the `~/Desktop` directory)
+- cd into the main directory:- `cd ~Desktop/smart-biosensor/Backend`
+- To run the Python script, run the command:- `python test-script.py`
