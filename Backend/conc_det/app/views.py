@@ -30,4 +30,4 @@ def getConcentration(request):
             return Response({"Status": "Error", "Error Text": "No Image provided"})
 
     except Exception as e:
-        return Response({"Status": "Error", "Error Text": e})
+        return Response({"Status": "Error", "Error Text": str(e)})
