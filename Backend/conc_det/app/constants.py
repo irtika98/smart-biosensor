@@ -1,6 +1,6 @@
-API_KEY = "AcDWtmJ25mTDmedADOsr"
+API_KEY = "1PiXTl4XoeO0OqF6MupA"
 PROJECT = "color_strip-identifyer"
-VERSION = 8
+VERSION = 1
 MEDIAN_BLUR = 70
 IMG_WIDTH = 128
 IMG_HEIGHT = 50
