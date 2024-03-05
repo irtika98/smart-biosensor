@@ -114,7 +114,7 @@ We need to install all the Python packages required to run our project.
 - Install the Python packages from the requirements.txt file using the command:- `pip install -r requirements.txt`
 After installing all the packages, follow the steps to run the backend.
 - cd to the necessary directory using the command:- `cd conc_det`
-- run the backend server using the command:- `python manage.py runserver`
+- run the backend server using the command:- `python manage.py runserver 0.0.0.0:8000`
 This activates all the necessary API endpoints to access backend functions.
 - To test the backend, open a new terminal window to run the test script.
 - Activate the virtual environment using the above-mentioned command (make sure you are in the `~/Desktop` directory)
