@@ -3,7 +3,7 @@
 
 [Model notebook link](https://colab.research.google.com/drive/1f5Pt4IbzCRCrD8QIA5-YvNCn05UAD8s2?usp=sharing)
 
-Welcome! I am working on a project, our goal is to predict the HCG concentration from images of pregnancy test kits. We've curated a dataset of different pregancy test kit images for  different HCG concentrations, both newly collected data by our group and previously gathered in the lab. We used Roboflow for object detection to identify the distinct regions corresponding to the C and T strips in the kit. Subsequently, We used OpenCV for image processing, to calculate the T_strip/C_strip intensity ratio. This ratio plays a pivotal role in hCG kits, forming a linear relationship when plotted against concentration of hCG hormone.
+We are working on a project and our goal is to predict the concentration of analyte from images of test kits. We've curated a dataset of different test kit images for  different HCG concentrations, both newly collected data by our group and previously gathered in the lab. We used Roboflow for object detection to identify the distinct regions corresponding to the C and T strips in the kit. Subsequently, We used OpenCV for image processing to calculate the T_strip/C_strip intensity ratio. This ratio plays a pivotal role in hCG kits, forming a linear relationship when plotted against the concentration of hCG hormone.
 
 
 
