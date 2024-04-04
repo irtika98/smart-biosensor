@@ -1,5 +1,6 @@
 
-# hCG concentration prediction using deep learning and computer vision
+# hCG concentration prediction using deep learning and computer vision (not updated)
+
 
 [Model notebook link](https://colab.research.google.com/drive/1f5Pt4IbzCRCrD8QIA5-YvNCn05UAD8s2?usp=sharing)
 
