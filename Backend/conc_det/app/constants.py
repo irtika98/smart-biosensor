@@ -1,5 +1,5 @@
 API_KEY = "AcDWtmJ25mTDmedADOsr"
-PROJECT = "color-strip-identifier"
+PROJECT = "color_strip-identifier"
 VERSION = 10
 MEDIAN_BLUR = 70
 IMG_WIDTH = 128
