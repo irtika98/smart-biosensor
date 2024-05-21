@@ -1,0 +1,26 @@
+<View style={{ marginTop: 10 }}>
+<Text>C Strip:</Text>
+<Text>X: {concentration['C Strip'].x}</Text>
+<Text>Y: {concentration['C Strip'].y}</Text>
+<Text>Width: {concentration['C Strip'].width}</Text>
+<Text>Height: {concentration['C Strip'].height}</Text>
+<Text>Confidence: {concentration['C Strip'].confidence}</Text>
+<Text>Class: {concentration['C Strip'].class}</Text>
+<Text>Class ID: {concentration['C Strip'].class_id}</Text>
+<Text>Detection ID: {concentration['C Strip'].detection_id}</Text>
+<Text>Image Path: {concentration['C Strip'].image_path}</Text>
+<Text>Prediction Type: {concentration['C Strip'].prediction_type}</Text>
+</View>
+<View style={{ marginTop: 10 }}>
+<Text>T Strip:</Text>
+<Text>X: {concentration['T Strip'].x}</Text>
+<Text>Y: {concentration['T Strip'].y}</Text>
+<Text>Width: {concentration['T Strip'].width}</Text>
+<Text>Height: {concentration['T Strip'].height}</Text>
+<Text>Confidence: {concentration['T Strip'].confidence}</Text>
+<Text>Class: {concentration['T Strip'].class}</Text>
+<Text>Class ID: {concentration['T Strip'].class_id}</Text>
+<Text>Detection ID: {concentration['T Strip'].detection_id}</Text>
+<Text>Image Path: {concentration['T Strip'].image_path}</Text>
+<Text>Prediction Type: {concentration['T Strip'].prediction_type}</Text>
+</View>
