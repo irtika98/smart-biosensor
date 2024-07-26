@@ -4,7 +4,7 @@
 
 [Model notebook link](https://colab.research.google.com/drive/1f5Pt4IbzCRCrD8QIA5-YvNCn05UAD8s2?usp=sharing)
 
-We are build a prototype aimed at predicting the concentration of analytes from images of test kits. We developed our project for hCG test kits because they are comparatively cheaper and less hazardous to handle. Our dataset comprises images of various test kits with different hCG concentrations, including newly collected data and previously gathered samples from our lab. We performed object detection to identify the distinct regions corresponding to the C and T strips on the kits. We then utilized OpenCV for image processing to calculate the T_strip/C_strip intensity ratio, which is crucial for hCG kits, as it forms a linear relationship when plotted against the concentration of the hCG hormone.
+We are build a prototype aimed at predicting the concentration of analytes from images of test kits. We developed our project for hCG test kits because they are comparatively cheaper and less hazardous to handle. Our dataset comprises images of various test kits with different hCG concentrations, including newly collected data and previously gathered samples from our lab. We performed object detection to identify the distinct regions corresponding to the C and T strips on the kits. We then utilized OpenCV for image processing to calculate the T_strip/C_strip intensity ratio, which is crucial for hCG kits, as it forms a linear relationship when plotted against the concentration of the hCG hormone for concentrations under 50 IU/ml.
 
 
 
