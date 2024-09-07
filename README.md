@@ -21,7 +21,6 @@ After sufficient preprocessing of image data, we custom-trained the model using 
 
 **metrics**
 ![metrics](https://i.ibb.co/N7cz4wn/image.png)
-![metrics](https://i.ibb.co/YL1Ghkm/results.png)
 
 **test**
 ![test](https://i.ibb.co/SK5GxDz/image.png)
