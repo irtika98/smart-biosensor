@@ -8,10 +8,11 @@ We are build a prototype aimed at predicting the concentration of analytes from 
 
 # Tech Stacks
 
-### 1. Roboflow: Dataset management and object detection.
-### 2. OpenCV: Image processing
-### 3. Django: Backend.
-### 4. React Native: Frontend.
+### 1. Roboflow: Dataset management and
+### 2. YOLO: object detection.
+### 3. OpenCV: Image processing
+### 4. Django: Backend.
+### 5. React Native: Frontend.
 
 
 
